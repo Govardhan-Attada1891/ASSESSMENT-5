@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Vertical */
+.vertical-nav {
+  width: 200px;
+}
+
+.vertical-nav a {
+  background-color: #f1f1f1;
+  color: blue;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.vertical-nav a:first-child {
+  background-color: orange;
+  color: white;
+}
+
+/* Horizontal */
+.horizontal-nav {
+  display: flex;
+  margin-top: 30px;
+}
+
+.horizontal-nav a {
+  background-color: lightgray;
+  color: blue;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #999;
+}
+
+.horizontal-nav a:first-child {
+  background-color: gray;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h3>Task</h3>
+<div style="display: flex; gap: 40px;">
+  <div class="vertical-nav">
+    <a href="#">Home</a>
+    <a href="#">Java</a>
+    <a href="#">CSS</a>
+    <a href="#">HTML</a>
+    <a href="#">Bootstrap</a>
+  </div>
+
+  <div class="horizontal-nav">
+    <a href="#">Home</a>
+    <a href="#">Java</a>
+    <a href="#">HTML</a>
+    <a href="#">CSS</a>
+  </div>
+</div>
+
+</body>
+</html>
